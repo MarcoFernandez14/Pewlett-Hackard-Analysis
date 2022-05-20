@@ -36,7 +36,7 @@ The purpose of the porject is to build a database analysis for Pewlett Hackard i
 ## Summary
 It seems that if we consider current employees that were hired between 1952 an d1955, Pewlett-Hackard should prepare to fill 72,458 vacant positions once the "silver tsunami" begins to make an impact.
 When we analyze the ratio of employess qualified to mentor versus the retiring employess by department, we can observe that the ratio is around 2% in all departments. Pewlett-Hackard should determine if that ratio is enought to train all the new comers efficiently. Please see image below.  
-![Retiring vs mentor by department]()  
+![Retiring vs mentor by department](https://github.com/MarcoFernandez14/Pewlett-Hackard-Analysis/blob/main/Data/Retiring%20vs%20mentor%20by%20department.png)  
 
 In order to obtain this information the additional queries are:
 

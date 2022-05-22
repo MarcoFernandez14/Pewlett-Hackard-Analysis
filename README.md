@@ -40,7 +40,7 @@ When we analyze the ratio of employees qualified to mentor versus the retiring e
 
 In order to obtain this information, the additional queries are:
 
--------------------------------------------------
+```
 -- Retiring by deparment
 SELECT e.emp_no, 
 	e.first_name,
@@ -80,8 +80,8 @@ INTO retiring_dept
 FROM unique_dept as ud
 GROUP BY ud.dept_name
 ORDER BY count DESC;
-
-------------------------------------
+```
+```
 --Mentorship by deparment
 SELECT e.emp_no, 
 	e.first_name,
@@ -121,7 +121,8 @@ INTO mentor_dept
 FROM mentorunique_dept as md
 GROUP BY md.dept_name
 ORDER BY count DESC;
-
+```
+```
 -- Retiring vs Mentorship by department
 SELECT rd.count AS count_retiring,
     md.count AS count_mentor,
@@ -131,5 +132,5 @@ FROM retiring_dept AS rd
 	JOIN mentor_dept as md
 		ON (rd.dept_name = md.dept_name)
 ORDER BY dept_name ASC;
-
+```
 
